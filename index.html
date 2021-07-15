@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<link rel="stylesheet" href="a.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<h1>DOM Examples</h1>
+<p>
+  <input id="name" type="text"> 
+  <label for="cars">Choose a priority:</label>
+  <select id="cars" name="cars">
+    <option value="h" >HIGH</option>
+    <option value="m">MEDIUM</option>
+    <option value="l">LOW</option>
+    
+  </select>
+  <input type="submit" onclick="main()">
+</p>
+
+<!-- <p>
+
+<input id="name" type="text"> YES!
+<button  onclick="highp();">high priority</button>
+<button  onclick="midp();">medium priority</button>
+<button  onclick="lowp();">low priority</button>
+
+</p> -->
+
+<p id="demohigh" class="red"></p>
+<p id="demomid" class="blue" ></p>
+<p id="demolow" class="green"></p>
+
+
+
+<p>
+  <button  onclick="highshow();"> show all high priority</button>
+  <button  onclick="midshow();"> show all medium priority</button>
+  <button  onclick="lowshow();">show all low priority</button> 
+</p> 
+<p id="dem" ></p>
+
+<script src="test.js"></script>
+
+</body>
+</html>
